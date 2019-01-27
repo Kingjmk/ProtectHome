@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
-        this.transform.position = Vector3.MoveTowards(this.transform.position,BASE.transform.position,0.01f);
+        this.transform.position = Vector3.MoveTowards(this.transform.position,BASE.transform.position,0.01f);        
     }
  
 }
